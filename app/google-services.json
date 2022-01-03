@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "683206372891",
+    "project_id": "pucit-app",
+    "storage_bucket": "pucit-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683206372891:android:7942f5c62ee370c40b12be",
+        "android_client_info": {
+          "package_name": "com.example.adminpucitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683206372891-5kqgju8jo0mcn1g85u5jc3eft6clpgc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_fnE8079Wd2Kd3JHDc79YX0eoGi5KuvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683206372891-5kqgju8jo0mcn1g85u5jc3eft6clpgc3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
