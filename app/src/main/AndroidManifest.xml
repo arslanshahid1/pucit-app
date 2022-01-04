@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AdminPUCITApp">
         <activity
+            android:name=".faculty.UpdateFaculty"
+            android:exported="true" />
+        <activity
+            android:name=".faculty.AddTeacher"
+            android:exported="true" />
+        <activity
             android:name=".UploadPDF"
             android:exported="true" />
         <activity
