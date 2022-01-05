@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AdminPUCITApp">
         <activity
+            android:name=".deleteNotice.DeleteNotice"
+            android:exported="true" />
+        <activity
+            android:name=".faculty.UpdateTeacher"
+            android:exported="true" />
+        <activity
             android:name=".faculty.UpdateFaculty"
             android:exported="true" />
         <activity

@@ -52,8 +52,6 @@ public class UpdateFaculty extends AppCompatActivity {
         seDepartment();
         itDepartment();
 
-
-
         fab=findViewById(R.id.fab);
 
         fab.setOnClickListener(new View.OnClickListener() {
@@ -83,7 +81,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     csDepartment.setHasFixedSize(true);
                     csDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list1,UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list1,UpdateFaculty.this, "Computer Science");
                     csDepartment.setAdapter(adapter);
                 }
             }
@@ -114,9 +112,8 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     seDepartment.setHasFixedSize(true);
                     seDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list2,UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list2,UpdateFaculty.this, "Software Engineering");
                     seDepartment.setAdapter(adapter);
-
                 }
             }
 
@@ -146,7 +143,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     itDepartment.setHasFixedSize(true);
                     itDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list3,UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list3,UpdateFaculty.this, "Information Technologu");
                     itDepartment.setAdapter(adapter);
 
                 }
